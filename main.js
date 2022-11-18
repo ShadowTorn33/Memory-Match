@@ -1,27 +1,46 @@
-const card = document.querySelectorAll('.front-of-card')
+const cards = document.querySelector('.all-cards')
+const img1 = document.querySelector('img')
+const img2 = document.querySelector('img')
 
-let click1 = null
-let click2 = null
-card.forEach(frontOfCard => {
-    frontOfCard.addEventListener('click', (evt) => {
-    //   click1 = evt.srcElement
-    //   click2 = evt.srcElement
-      if(click1 === null) {
-        click1 = evt.srcElement
-      } else if (click2 === null){
-        click2 = evt.srcElement
-      } else if (click1 === click2 && click1 !== null) {
-         console.log("game over you win")
-      }
+let clicked = null
+let arr = []
 
-    })
 
+cards.addEventListener('click', (evt) => {
+    clicked = evt.target.src
+    // arr.push(clicked)
+    if(arr.length === 1){
+        if(arr[0] === clicked){
+            console.log('true')
+            arr = []
+        } else {
+            console.log('false')
+            arr = []
+        }
+    } else {
+        arr.push(clicked)
+    }
+    console.log(arr)
 })
+
+
+
+
+
+
+
 
 // Create a function that has an if statement to compair if the 2 clicks are the same.
 
 
 
+// function checkIfCardsMatch() {
+//     if(img1 === img2){
+//     return true
+//     } else if(img1 !== img2)
+//     return false
+// }
+// console.log(checkIfCardsMatch)
 
 // card.addEventListener('click', (e) => {
 //     console.log('You clicked the image!')

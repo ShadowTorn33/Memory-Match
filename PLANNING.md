@@ -4,14 +4,14 @@
 
     * Create divs for each image your going to use.
         ~ This would look something like this
-           ```html
-            <div>
-                <div class="front-of-card"> Image of front of card </div>
-                <div class="back-of-card"> Image of back of card</div>
-            </div>
-            ```
+```html
+<div>
+    <div class="front-of-card"> Image of front of card </div>
+    <div class="back-of-card"> Image of back of card</div>
+</div>
+```
             
-    * Create a folder to hold your images so it will be easier to work with.
+* Create a folder to hold your images so it will be easier to work with.
 
     * PROPERLY!!! Name your divs with id's and classes. (You really need to make this clear and coherent)
 

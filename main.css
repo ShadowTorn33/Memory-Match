@@ -5,16 +5,43 @@
 }
 
 body {
-    display: flex;
+    height: 100vh;
     background-color: rgb(88, 153, 23);
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,10rem);
+    grid-template-rows: repeat(2,10rem);
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+           
 }
 
 .all-cards {
-    display: flex;
+    display: contents;
     align-items: center;
+    justify-content: center;
+    
 }
 
-.card {
-    height: ;
+.Fimage {
+    height: 100px;
+    width: 100px;
+    margin-left: 28px;
+    border-radius: 10px;
 }
+
+
+
+
+/* .front-of-card,.back-of-card {
+    max-height: 100px;
+    max-width: 100px;
+} */
+

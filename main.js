@@ -1,14 +1,21 @@
+const container = document.querySelector('.container')
 const cards = document.querySelector('.all-cards')
-const img1 = document.querySelector('img')
-const img2 = document.querySelector('img')
+const img1 = document.querySelector('.front-of-card')
+const img2 = document.querySelector('.back-of-card')
 
 let clicked = null
 let arr = []
 
+container.append(cards)
+img1.append(img2)
+
+
+function resetButton() {
+    
+}
 
 cards.addEventListener('click', (evt) => {
     clicked = evt.target.src
-    // arr.push(clicked)
     if(arr.length === 1){
         if(arr[0] === clicked){
             console.log('true')

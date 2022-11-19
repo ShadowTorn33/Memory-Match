@@ -45,3 +45,8 @@
 
 
 
+- Create a function that stops the display none on a false comparison.
+
+- Create a winning feature.
+    * if all clicks are true.
+    * alert that its a winner.

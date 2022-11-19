@@ -1,21 +1,63 @@
+// const img1 = document.getElementById('#jolly')
+// const img2 = document.getElementById('#photo')
+
+
+// const imgObj = [
+    //     {Ace: "./Images/Ace.jpeg"},
+    //     {Ace: "./Images/Ace.jpeg"},
+    //     {Brook: "./Images/Brook.jpeg"},
+    //     {Brook: "./Images/Brook.jpeg"},
+    //     {Chopper: "./Images/Chopper.jpeg"},
+    //     {Chopper: "./Images/Chopper.jpeg"},
+    //     {Franky: "./Images/Franky.jpeg"},
+    //     {Franky: "./Images/Franky.jpeg"},
+    //     {Jimbei: "./Images/Jimbei.jpeg"},
+    //     {Jimbei: "./Images/Jimbei.jpeg"},
+    //     {Luffy: "./Images/Luffy.jpeg"},
+    //     {Luffy: "./Images/Luffy.jpeg"},
+    //     {Luffy2: "./Images/Luffy2.jpeg"},
+    //     {Luffy2: "./Images/Luffy2.jpeg"},
+    //     {Marco: "./Images/Marco.jpeg"},
+    //     {Marco: "./Images/Marco.jpeg"},
+    // ]
+    
+    // function createBoard() {
+        //     for (let i = 0; i < imgObj.length; i++){
+            //         const card = document.createElement('img')
+            //         card.setAttribute('src', './Images/Jolly-Roger.jpeg')
+            //         card.setAttribute('data-id', i)
+            //         cards.appendChild(card)
+            //         console.log(card)
+            //     }
+            // }
+            // createBoard()
+            
+
 const container = document.querySelector('.container')
 const cards = document.querySelector('.all-cards')
-const img1 = document.querySelector('.front-of-card')
-const img2 = document.querySelector('.back-of-card')
+
+let card = document.querySelectorAll('.front').forEach(item => {
+    item.addEventListener('click', (evt) => {
+        evt.target.style.display = 'none'
+        
+    })
+})
+
 
 let clicked = null
+let clicked2 = null
 let arr = []
+let board = []
+let card1, card2
+let show = null
 
-container.append(cards)
-img1.append(img2)
-
-
-function resetButton() {
+function showCard() {
     
 }
+showCard()
 
 cards.addEventListener('click', (evt) => {
-    clicked = evt.target.src
+    clicked = evt.target.id
     if(arr.length === 1){
         if(arr[0] === clicked){
             console.log('true')
@@ -26,9 +68,13 @@ cards.addEventListener('click', (evt) => {
         }
     } else {
         arr.push(clicked)
+        
     }
     console.log(arr)
+
 })
+
+
 
 
 

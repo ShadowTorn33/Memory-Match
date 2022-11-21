@@ -1,4 +1,3 @@
-const container = document.querySelector('.container')
 const cards = document.querySelector('.all-cards')
 const modal = document.querySelector('.modal')
 const button = document.querySelector('.btn')
@@ -47,7 +46,6 @@ card.forEach(cards => cards.addEventListener('click', showCard))
 cards.addEventListener('click', (evt) => {
     clicked = evt.target.id
     if(cards !== evt.target) {
-
         if(arr.length === 1){
             if(arr[0] === clicked){
                 cardCount += 1
@@ -58,14 +56,10 @@ cards.addEventListener('click', (evt) => {
                     card1.classList.remove('hide')
                     card2.classList.remove('hide')
                 }, 1000)
-                console.log('false')
                 arr = []
             }
         } else {
             arr.push(clicked)
         }
-        console.log(arr)
     }
-
-
 })

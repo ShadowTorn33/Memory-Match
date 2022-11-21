@@ -1,6 +1,6 @@
 <p align=”center”>
 
-    <img width=”200" height=”200" src=”file:///Users/a.cheer/photos/Red%20Orange%20Yellow%20Paper%20-%20Photos%20by%20Canva_files/canva-MAD4rqArJ3c.jpg" alt=”my banner”>
+<img width=”200" height=”200" src=”file:///Users/a.cheer/photos/Red%20Orange%20Yellow%20Paper%20-%20Photos%20by%20Canva_files/canva-MAD4rqArJ3c.jpg" alt=”my banner”>
 
 </p>
 

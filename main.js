@@ -9,6 +9,7 @@ let card1, card2 = null
 let firstCard = false
 let cardCount = 0
 
+// This keeps track of matched cards and brings up the modal at the end.
 function endGame() {
     if(cardCount === 8) {
         modal.style.display = 'flex'
@@ -17,6 +18,7 @@ function endGame() {
 }
 endGame()
 
+// This function flips the card.
 function showCard() {
     this.classList.add('hide')
     if(!firstCard) {
@@ -33,14 +35,17 @@ function showCard() {
     }
 }
 
+// This resets the board
 window.addEventListener('load', (evt) => {
     button.onclick = function() {
         location.reload()
     }
 })
 
+// Listens for click and applys my showCard function
 card.forEach(cards => cards.addEventListener('click', showCard))
 
+// This listens for a click and checks if there a match.
 cards.addEventListener('click', (evt) => {
     clicked = evt.target.id
     if(cards !== evt.target) {

@@ -36,6 +36,12 @@ function showCard() {
     }
 }
 
+window.addEventListener('load', (evt) => {
+    button.onclick = function() {
+        location.reload()
+    }
+})
+
 card.forEach(cards => cards.addEventListener('click', showCard))
 
 cards.addEventListener('click', (evt) => {

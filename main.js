@@ -29,8 +29,6 @@ function showCard() {
     if(card1 === card2) {
         card1.removeEventlistener('click', showCard)
         card2.removeEventlistener('click', showCard)
-        } else if(this !== card1 || card2){
-
         }    
     }
 }

@@ -10,6 +10,14 @@ let card1, card2 = null
 let firstCard = false
 let cardCount = 0
 
+function endGame() {
+    if(cardCount === 8) {
+        modal.style.display = 'flex'
+        return modal
+    }
+}
+endGame()
+
 function showCard() {
     this.classList.add('hide')
     if(!firstCard) {
@@ -33,7 +41,7 @@ card.forEach(cards => cards.addEventListener('click', showCard))
 cards.addEventListener('click', (evt) => {
     clicked = evt.target.id
     if(cards !== evt.target) {
-        
+
         if(arr.length === 1){
             if(arr[0] === clicked){
                 cardCount += 1

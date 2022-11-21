@@ -1,8 +1,4 @@
-<p align=”center”>
-
 <img width=”200" height=”200" src=”file:///Users/a.cheer/photos/Red%20Orange%20Yellow%20Paper%20-%20Photos%20by%20Canva_files/canva-MAD4rqArJ3c.jpg" alt=”my banner”>
-
-</p>
 
 # **Memory-Match**
 - The memory match game can be traced back as far as the 16th century in Japan. They would match paintings on shells and in todays form it was published in 1960 by Ravensburger. 

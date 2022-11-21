@@ -3,7 +3,7 @@
 
 ## Screen Shots
 
-    ![](./Images/MemoryGame.png)
+    ![](/Images/MemoryGame.png)
 
 ## Technologies Used
     - HTML

@@ -39,7 +39,7 @@
 - Create EventListeners.
     * Well need an event listener for when the user clicks a card.
 
-![](./Images/wireframe.jpg)
+![](./Images/Wireframe.jpg)
 
 
 

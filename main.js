@@ -55,7 +55,7 @@ cards.addEventListener('click', (evt) => {
                 setTimeout( () => {
                     card1.classList.remove('hide')
                     card2.classList.remove('hide')
-                }, 1000)
+                }, 500)
                 arr = []
             }
         } else {

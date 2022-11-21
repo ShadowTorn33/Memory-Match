@@ -3,7 +3,7 @@
 
 ## Screen Shots
 
-    ![alt text](MemoryGame.png)
+![](MemoryGame.png)
 
 ## Technologies Used
     - HTML

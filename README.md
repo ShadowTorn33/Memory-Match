@@ -4,6 +4,7 @@
 ## Screen Shots
 
 ![](MemoryGame.png)
+![](Wireframe.jpg)
 
 ## Technologies Used
 - HTML
